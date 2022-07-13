@@ -1,0 +1,5 @@
+<select (change)="localeChanged($event.target)">
+  <option *ngFor="let locale of locales" [value]="locale.value">{{locale.display}}</option>
+</select>
+<h1 i18n>Esse é o Título</h1>
+<p i18n>Esse é o texto</p>
