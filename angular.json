@@ -89,7 +89,10 @@
             },
             "development": {
               "browserTarget": "internacionalizacao:build:development"
-            }
+            },
+            "pt": {
+			        "browserTarget": "internacionalizacao:build:pt"
+		        }
           },
           "defaultConfiguration": "development"
         },
